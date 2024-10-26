@@ -14,4 +14,5 @@ altura = float(input('qual é a altura do retangulo?'))
 #Processamento 
 perimetro = 2 * (base + altura)
 
+#Saída
 print(f'O perimetro do retangulo é: {perimetro}')
