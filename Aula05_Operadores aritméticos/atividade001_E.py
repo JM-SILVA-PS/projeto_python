@@ -5,18 +5,12 @@ import os
 # LIMPANDO TERMINAL
 os.system('cls')
 
-# INTROD.
-print('=' * 70)
-print('SUCESSOR E ANTECESSOR')
-print('=' * 70)
-
-# ENTRADA DE DADOS
+# ENTRADA 
 n1 = int(input('Coloque qualquer número: '))
 
 # PROCESSO
 sucessor = n1 + 1
 antecessor = n1 - 1
 
-# SAÍDA DE DADOS
-print(f'De {n1} seu sucessor será {sucessor} e seu antecessor será {antecessor}')
-print('=')
+# SAÍDA 
+print(f'O sucessor de {n1} será {sucessor} e seu antecessor será {antecessor}')

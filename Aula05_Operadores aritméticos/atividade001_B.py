@@ -2,25 +2,19 @@
 
 # IMPORTANDO BIBLIOTEA
 import os
+import datetime
 
 # LIMPANDO TERMINAL
 os.system('cls')
 
-# importando blibioteca de tempo 
-import datetime
-
-# ENTRADA DE DADOS
-print('=' * 70)
+# ENTRADA 
 print('CÁLCULO DA IDADE ATUAL')
-print('=' * 70)
-print('')
-nome = str(input('Qual seu nome?: '))
+
 nascimento = int(input('Qual o ano de seu nascimento?: '))
 
 # PROCESSAMENTO
 ano_atual = datetime.datetime.now().year
 idadeatual = int(ano_atual) - int(nascimento)
 
-# SAÍDA DE DADOS
-print(f'Olá {nome} você tem ou irá fazer {idadeatual} anos!!')
-print('=')
+# SAÍDA 
+print(f'Você tem ou irá fazer {idadeatual} anos!!')
