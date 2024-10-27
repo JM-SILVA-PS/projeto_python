@@ -14,4 +14,3 @@ valor3 = float(input('Insira o 3° valor: '))
 # Saída
 soma = print(f'Aqui está a soma dos valores: {valor1 + valor2 + valor3}')
 multiplicacao = print(f'Aqui está a multiplicação desses valores: {valor1 * valor2 * valor3}')
-print('=')
