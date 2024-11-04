@@ -1,0 +1,15 @@
+import os
+
+os.system('cls')
+
+a = input('valor A:')
+b = input('valor B:')
+c = input('valor C:')
+
+soma = a+b
+
+if soma > c:print(f'a soma do valor A e B : {soma}. é maior que o valor C')
+
+else:
+       soma < c
+       print(f'a soma do valor A e B : {soma}. é menor que o valor C')
