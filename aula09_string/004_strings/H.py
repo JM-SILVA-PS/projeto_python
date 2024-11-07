@@ -1,7 +1,7 @@
 import os 
 os.system('cls')
 
-aluno = input('insira o nome do aluno:')
+aluno = input('insira o nome do aluno:').lower()
 
 o = aluno.count('o')
 print(f'o nome {aluno} possui {o} letras o')
