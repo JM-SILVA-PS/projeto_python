@@ -1,15 +1,39 @@
-import os
+import os 
+import random
 
 os.system('cls')
 
-a = input('valor A:')
-b = input('valor B:')
-c = input('valor C:')
-
-soma = a+b
-
-if soma > c:print(f'a soma do valor A e B : {soma}. é maior que o valor C')
-
+lista=['pedra','papel','tesoura']
+escolha=input('escolha entre pedra papel e tesoura: ').strip().lower()
+if escolha not in lista:
+       print(f'escolha invalida!!!')
+       exit()
 else:
-       soma < c
-       print(f'a soma do valor A e B : {soma}. é menor que o valor C')
+        pass
+pedra=0
+tesoura=1
+papel=2
+0>1
+0<2
+1>2
+1<0
+2>0
+2<1
+
+pedra_wins= pedra > tesoura
+tesoura_wins= tesoura > papel
+papel_wins= papel > pedra
+
+pedra_lose=pedra<papel 
+tesoura_lose=tesoura<pedra
+papel_lose=papel < tesoura
+
+eu_escolho=random.choice(lista)
+print(f'O computador escolheu {eu_escolho}')
+
+if eu_escolho > escolha:
+              print(f'você perdeu :(')
+elif eu_escolho == escolha:
+              print(f'Empate')
+else:
+        print(f'Parabens!!! você ganhou :)')
